@@ -1,0 +1,31 @@
+.board {
+    flex-direction: row;
+  }
+
+.board[winner] {
+    pointer-events: none;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.new {
+    height: 25;
+    padding: 5px 12px;
+    text-align: center;
+    font-size: 12;
+    display: inline-block;
+    flex-direction: row;
+}
+
+
+.status, .statusBottom {
+    display: flex;
+    flex-direction: row;
+}
+.statusRight {
+    padding-left: 200px;
+}

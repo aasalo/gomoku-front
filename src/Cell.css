@@ -1,0 +1,27 @@
+.cell {
+    background: rgba(118, 209, 110, 0.733);
+    border: 1px solid black;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+
+  }
+
+.cell[color=black] {
+  background-color: black
+}
+
+.cell[color=white] {
+  background-color: white
+}
+
+.cell:focus {
+    outline: none;
+  }
