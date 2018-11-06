@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a simplified front-end for Gomoku. The app expects the [Backend](https://github.com/aasalo/gomoku-backend) to be running at localhost:8080.
+
 ## Available Scripts
 
 In the project directory, you can run:
